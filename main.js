@@ -36,7 +36,7 @@ app.get('/form', (req, res) => {
 app.post('/submit', async (req, res) => {
   const { username, password } = req.body;
 
-  if (!username || !password) {
+  if (!username && !password) {
     return res.render('form', { error: 'Both fields are required!' });
   }
   try {
