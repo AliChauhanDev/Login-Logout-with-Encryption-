@@ -1,13 +1,52 @@
-Hello Everione ,
-Detial abute Repositories :- 
+ 🔐 Login-Logout with Encryption  
 
-I make sing up form that store the data of user ,
-but in this the username store as well as user enter and the password will store in encrypt mode so even in data base no one can see the user paswword,
-that make it secure form other even heaker heak the database they never have orignal password of user.
-And i make sing in form that take ,
-username and password of user that have all ready accuont in application ,
-that compair that encrypt password to user entered password 
-then it feach data of theat user on the database 
+A secure user authentication system implementing encrypted password storage, built with Node.js and Express.  
 
-Thank you very much to see my Repositories
-And i hope this repoo will help you 
+ ✨ Features  
+
+✅ **User Registration** – Create new accounts with encrypted passwords.  
+✅ **User Login** – Authenticate with username and password.  
+✅ **Password Encryption** – Secure password storage using encryption.  
+✅ **Session Management** – Maintain user sessions securely.  
+
+ ⚡ Installation  
+
+🔻 **Clone the Repository**  
+```bash
+git clone https://github.com/AliChauhanDev/Login-Logout-with-Encryption-.git
+cd Login-Logout-with-Encryption-
+```
+
+📦 **Install Dependencies**  
+```bash
+npm install
+```
+
+⚙️ **Configure Environment Variables**  
+- Create a `.env` file in the root directory.  
+- Add the following:  
+  ```
+  PORT=3000
+  SESSION_SECRET=your_secret_key
+  ```
+
+🚀 **Start the Application**  
+```bash
+npm start
+```
+The application will be accessible at `http://localhost:3000`.  
+
+ 🛠️ Usage  
+
+🔹 **Register** – Navigate to `/register` to create a new account.  
+🔹 **Login** – Navigate to `/login` to access your account.  
+🔹 **Logout** – Click the logout button to end your session.  
+
+ 🔒 Security  
+
+🔑 **Password Encryption** – Passwords are encrypted before storage to enhance security.  
+🛡️ **Session Management** – Sessions are managed using secure cookies.  
+
+---
+
+Let me know if you want any more improvements! 🚀🔥
